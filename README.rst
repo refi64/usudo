@@ -1,7 +1,7 @@
 usudo
 =====
 
-A ``sudo`` for Windows, designed to handle both command-line and windowed
+A ``sudo`` for Windows designed to handle both command-line and windowed
 applications well.
 
 What's wrong with the others?
@@ -29,8 +29,8 @@ Toss up all 3 executables up somewhere in your PATH. The two important ones are
 
 ``usudo.exe`` will *always* open a command prompt, and it will ``pause`` once
 the application finishes running. ``usudo-w.exe`` will NOT open a command prompt
-unless necessary (e.g. running a command-line-only application), and there's
-kind of pause after it finishes.
+unless necessary (e.g. running a command-line-only application), and there's no
+pause after it finishes.
 
 **TL;DR:** Use ``usudo.exe`` for command-line applications and ``usudo-w.exe``
 for windowed applications.
